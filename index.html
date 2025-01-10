@@ -3,32 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronic Design House</title>
+    <title>ZYTech</title>
     <link href="/style.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Electronic Design House</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+        <nav class="main-nav">
+            <div class="logo">ZY-Technology</div>
+            <div class="nav-links">
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Cases</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn-login">Log in</button>
+                <button class="btn-demo">Book a demo</button>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>Welcome to our Electronic Design House. We specialize in creating innovative and reliable electronic solutions.</p>
-        </section> 
-        </main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>We are a team of passionate developers</h1>
+                <p>We are a team of passionate developers who are dedicated to creating innovative and reliable electronic solutions.</p>
+                <a href="#" class="see-all">See all stories →</a>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2023 Electronic Design House</p>
-    </footer>
-    <script defer type="text/javascript" src="/main.js"></script>
+        <section class="success-stories">
+            <div class="story-grid">
+                <div class="story-card metrics">
+                    <div class="metric-number">100+</div>
+                    <p>successful projects delivered</p>
+                </div>
+
+                <div class="story-card">
+                    <img src="https://placehold.co/100x100/FFFFFF/000000.png?text=TC" alt="Tech Corp Logo" class="company-logo">
+                    <p class="quote">"ZY-Technology transformed our legacy system into a modern, efficient platform. Their expertise saved us countless hours and improved our productivity by 200%."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Sarah Chen">
+                        <div class="author-info">
+                            <strong>Sarah Chen</strong>
+                            <span>CTO at TechCorp Solutions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="story-card">
+                    <img src="https://placehold.co/100x100/00FF00/FFFFFF.png?text=IS" alt="InnoSoft Logo" class="company-logo">
+                    <p class="quote">"The custom software solution developed by ZY-Technology helped us automate our core business processes, resulting in a 45% reduction in operational costs."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Michael Zhang">
+                        <div class="author-info">
+                            <strong>Michael Zhang</strong>
+                            <span>CEO at InnoSoft Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
